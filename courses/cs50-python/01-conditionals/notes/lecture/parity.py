@@ -1,5 +1,5 @@
 # -------------------------------------------------------------------------
-# CS50 Python – Lecture 01: Conditionals
+# CS50 Python – Lecture 01: Conditionals - 
 
 # This file contains follow-along notes and example code written while
 # watching the lecture from the CS50 Python course. The purpose of this

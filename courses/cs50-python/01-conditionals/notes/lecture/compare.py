@@ -1,10 +1,8 @@
 # -------------------------------------------------------------------------
-# CS50 Python – Lecture 01: Conditionals
+# CS50 Python – Lecture 01: Conditionals - if/elif/else
 
-# This file contains follow-along notes and example code written while
-# watching the lecture from the CS50 Python course. The purpose of this
-# file is to practice concepts, experiment with examples, and document
-# my learning process as I refresh my programming fundamentals.
+# This file explores Conditional statements with comparison operators "if", "elif" and "else"
+# This file also practices maniplualting control flow to produce more efficent, maintainable code.
 # ----------------------------------------------------------------------------------------------------------
 # Version 1: Independent if statements
 # Each condition is evaluated separately (all can run if True)
@@ -20,8 +18,8 @@ if x == y:
     print("x is equal to y")
 
 # Insight:
-# Multiple if statements = no mutual exclusion
-# All conditions are checked independently
+# With multiple "if" statements, control flow independently evaluates every condition
+# Execution persists through all blocks, checking every condition regardless of prior outcomes 
 
 #---------------------------------------------------------------------------------------------------------
 # Version 2: if / elif chain
@@ -39,8 +37,9 @@ elif x == y:
     print("x is equal to y")
 
 # Insight:
-# elif prevents unnecessary checks after first match
-# clearer decision structure than multiple ifs
+# elif creates mutual exclusive control flow
+# only one block in the if/elif chain will execute dependent on previous check being false
+# Execution stop after first true condition
 
 #----------------------------------------------------------------------------------------------------------
 
